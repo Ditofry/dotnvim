@@ -25,3 +25,4 @@ endf
 
 call GetBase16('init')
 call timer_start(500, 'GetBase16', {'repeat':-1})
+colorscheme base16-ashes

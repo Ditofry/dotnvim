@@ -94,7 +94,10 @@ nnoremap k gk
 " vmap <C-j> ]egv
 
 " leader leader to switch between last 2 buffers
-nnoremap <leader><leader> <c-^>
+" nnoremap <leader><leader> <c-^>
+
+" Escape out of terminal buffer
+:tnoremap <Esc> <C-\><C-n>
 
 " Sass: stop sucking, sass
 au BufRead, BufNewFile *.scss set filetype=scss
@@ -109,3 +112,10 @@ nnoremap <localleader>t :EnTypeCheck<CR>
 
 " Ooh, cool
 set inccommand=nosplit
+
+" Move this to its own file.... fzf stuff
+" imap <c-x><c-l> <plug>(fzf-complete-line)
+nnoremap <leader>p :History<CR>
+nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>t :Files<CR>
+let $FZF_DEFAULT_COMMAND= 'ag -g ""'

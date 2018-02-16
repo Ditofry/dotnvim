@@ -23,7 +23,6 @@ endfunction
 " Plug 'benekastah/neomake',      {'do': 'npm install -g standard'}
 Plug 'bling/vim-bufferline'
 Plug 'brooth/far.vim'
-Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'daviesjamie/vim-base16-lightline'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
@@ -40,7 +39,7 @@ Plug 'mhinz/vim-signify'
 Plug 'mklabs/vim-json'
 Plug 'myusuf3/numbers.vim'
 Plug 'reedes/vim-pencil'
-Plug 'rking/ag.vim'
+Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim' " Specific to Homebrew: https://github.com/junegunn/fzf.vim#installation
 Plug 'sjl/vitality.vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-eunuch'
