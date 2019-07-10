@@ -5,7 +5,7 @@ My editor setup. Plugin management is handled by [vim-plug](http://github.com/ju
 ## step one
 
 ```bash
-git clone http://github.com/killtheliterate/dotnvim.git ~/.config/nvim
+git clone http://github.com/ditofry/dotnvim.git ~/.config/nvim
 ```
 
 ## step two
@@ -25,7 +25,6 @@ the base16-shell repo to add the appropriate stuff to your
 * [Auto Pairs](http://github.com/jiangmiao/auto-pairs)
 * [Breeze](http://github.com/gcmt/breeze.vim)
 * [Bufferline](http://github.com/bling/vim-bufferline)
-* [CtrlP](http://github.com/kien/ctrlp.vim)
 * [Deoplete](http://github.com/Shougo/deoplete.nvim)
 * [EditorConfig](http://github.com/editorconfig/editorconfig-vim)
 * [Eunuch](http://github.com/tpope/vim-eunuch)

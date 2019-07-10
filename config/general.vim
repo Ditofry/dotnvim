@@ -114,7 +114,7 @@ nnoremap <localleader>t :EnTypeCheck<CR>
 set inccommand=nosplit
 
 " Move this to its own file.... fzf stuff
-" imap <c-x><c-l> <plug>(fzf-complete-line)
+imap <c-x><c-l> <plug>(fzf-complete-line)
 nnoremap <leader>p :History<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>t :Files<CR>
